@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grocery</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<link rel="shortcut icon" href="img/fav-icon.png">
+
+<body>
+    <header class="header" id="head">
+        <a href="index.html">
+            <h1 class="heading">e<span id="spanlogo">Grocery</span></h1>
+        </a>
+        <nav class="navbar" id="nav">
+            <a href="index.html" class="active">Home</a>
+            <a href="categories.html">categories </a>
+            <a href="bundle.html">bundle pack</a>
+            <a href="about-us.html">about us</a>
+        </nav>
+        <div id="menubtn">
+            <span id="first"></span>
+            <div>
+            <span id="middle_one"></span>
+            <span id="middle_second"></span>
+        </div>
+            <span id="last"></span>
+        </div>
+        <!-- <i class="fa-solid fa-bars" id="bar" onclick="toggleHide()"></i> -->
+        <!-- <i class="fa-solid fa-x" id="cross" onclick="toggleHide()"></i> -->
+        <div class="icons">
+            <div id="light"><i class="fa-solid fa-sun"></i></div>
+            <div id="dark"><i class="fa-solid fa-moon"></i></div>
+            <div class="heart"><i class="fa-regular fa-heart"></i></div>
+            <div class="cart"><i class="fa-solid fa-cart-shopping"></i></div>
+
+        </div>
+    </header>
+    <nav class="navbar2" id="nav2">
+        <a href="index.html" class="active">Home</a>
+        <a href="categories.html">categories </a>
+        <a href="bundle.html">bundle pack</a>
+        <a href="about-us.html">about us</a>
+    </nav>
+        <div class="main-poster" id="poster">
+            <img src="img/bg-1.png" class="bg-1" alt="bg">
+            <img src="img/bg-2.png" class="bg-2" alt="bg">
+    
+            <!-- text start here--------------->
+            <h1>
+                order your daily
+            </h1>
+            <h1>
+                groceries
+            </h1>
+            <strong>#free delivery</strong>
+            <div class="search-box">
+                <label class="fa-solid fa-magnifying-glass" id="search-logo" for="search"></label>
+                <input type="text" id="search" placeholder="Search your daily groceries">
+                <label for="search" class="seacrh-btn">search</label>
+            </div>
+        </div>
+        <div class="categories" id="category">
+            <div class="cat-head">
+                <strong class="categories-tittle">category</strong>
+                <p>all</p>
+            </div>
+            <div class="cat-item">
+                <div class="category-box">
+                    <img src="img/fish.png" alt="">
+                    <span>fish & meat</span>
+                </div>
+                <div class="category-box">
+                    <img src="img/baby.png" alt="">
+                    <span>baby</span>
+    
+                </div>
+                <div class="category-box">
+                    <img src="img/beauty.png" alt="">
+                    <span>beauty</span>
+    
+                </div>
+                <div class="category-box">
+                    <img src="img/medicine.png" alt="">
+                    <span>medicine</span>
+    
+                </div>
+                <div class="category-box">
+                    <img src="img/Gardening.png" alt="">
+                    <span>Gardening</span>
+    
+                </div>
+                <div class="category-box">
+                    <img src="img/office.png" alt="">
+                    <span>office</span>
+    
+                </div>
+                <div class="category-box" id="veg">
+                    <img src="img/Vegetables.png" alt="">
+                    <span>Vegetables</span>
+    
+                </div>
+            </div>
+        </div>
+        <section class="popular" id="popular-product">
+            <div class="pop-head">
+                <strong class="popular-tittle">popular product</strong>
+                <p>all</p>
+            </div>
+            <div class="pop-item">
+                <div class="popular-box">
+                    <i class="fa-regular fa-heart" id="like"></i>
+                    <div class="pop-img">
+                        <img src="img/apple.png" id="pop-img" alt="">
+                    </div>
+                    <strong class="pop-name">apple</strong>
+                    <p>1 KG</p>
+                    <strong class="pop-price">rs 50</strong>
+                    <button class="pop-btn"><i class="fa-solid fa-bag-shopping"></i> add to cart</button>
+                </div>
+                <div class="popular-box">
+                    <i class="fa-regular fa-heart" id="like"></i>
+                    <div class="pop-img">
+                        <img src="img/tamato.png" id="pop-img" alt="">
+                    </div>
+                    <strong class="pop-name">tamato</strong>
+                    <p>1 KG</p>
+                    <strong class="pop-price">rs 50</strong>
+                    <button class="pop-btn"><i class="fa-solid fa-bag-shopping"></i> add to cart</button>
+                </div>
+                <div class="popular-box">
+                    <i class="fa-regular fa-heart" id="like"></i>
+                    <div class="pop-img">
+                        <img src="img/onion.png" id="pop-img" alt="">
+                    </div>
+                    <strong class="pop-name">onion</strong>
+                    <p>1 KG</p>
+                    <strong class="pop-price">rs 50</strong>
+                    <button class="pop-btn"><i class="fa-solid fa-bag-shopping"></i> add to cart</button>
+                </div>
+                <div class="popular-box">
+                    <i class="fa-regular fa-heart" id="like"></i>
+                    <div class="pop-img">
+                        <img src="img/garlic.png" id="pop-img" alt="">
+                    </div>
+                    <strong class="pop-name">garlic</strong>
+                    <p>1 KG</p>
+                    <strong class="pop-price">rs 50</strong>
+                    <button class="pop-btn"><i class="fa-solid fa-bag-shopping"></i> add to cart</button>
+                </div>
+                <div class="popular-box">
+                    <i class="fa-regular fa-heart" id="like"></i>
+                    <div class="pop-img">
+                        <img src="img/patato.png" id="pop-img" alt="">
+                    </div>
+                    <strong class="pop-name">patato</strong>
+                    <p>1 KG</p>
+                    <strong class="pop-price">rs 50</strong>
+                    <button class="pop-btn"><i class="fa-solid fa-bag-shopping"></i> add to cart</button>
+                </div>
+                <div class="popular-box">
+                    <i class="fa-regular fa-heart" id="like"></i>
+                    <div class="pop-img">
+                        <img src="img/chili.png" id="pop-img" alt="">
+                    </div>
+                    <strong class="pop-name">chili</strong>
+                    <p>1 KG</p>
+                    <strong class="pop-price">rs 50</strong>
+                    <button class="pop-btn"><i class="fa-solid fa-bag-shopping"></i> add to cart</button>
+                </div>
+    
+            </div>
+    
+        </section>
+        <!-- bundle start here --------------------------------------- -->
+        <section class="bundle" id="bundleproduct ">
+            <div class="bund-head">
+                <strong class="bundle-tittle">bundle product</strong>
+    
+            </div>
+            <div class="bund-item">
+                <div class="bundle-box">
+                    <i class="fa-regular fa-heart" id="like"></i>
+                    <div class="bund-img">
+                        <img src="img/pack1.png" id="bund-img" alt="">
+                    </div>
+                    <strong class="bund-name">large</strong>
+                    <p>onion,tamato,garlic</p>
+                    <strong class="bund-price">$2</strong>
+                    <button class="bund-btn"><i class="fa-solid fa-bag-shopping"></i> add to cart</button>
+                </div>
+                <div class="bundle-box">
+                    <i class="fa-regular fa-heart" id="like"></i>
+                    <div class="bund-img">
+                        <img src="img/pack2.jpg" id="bund-img" alt="">
+                    </div>
+                    <strong class="bund-name">medium</strong>
+                    <p>onion,tamato,garlic</p>
+                    <strong class="bund-price">$3</strong>
+                    <button class="bund-btn"><i class="fa-solid fa-bag-shopping"></i> add to cart</button>
+                </div>
+                <div class="bundle-box">
+                    <i class="fa-regular fa-heart" id="like"></i>
+                    <div class="bund-img">
+                        <img src="img/pack3.png" id="bund-img" alt="">
+                    </div>
+                    <strong class="bund-name">small</strong>
+                    <p>onion,tamato,garlic</p>
+                    <strong class="bund-price">$1</strong>
+                    <button class="bund-btn"><i class="fa-solid fa-bag-shopping"></i> add to cart</button>
+                </div>
+                <div class="bundle-box" id="very-small">
+                    <i class="fa-regular fa-heart" id="like"></i>
+                    <div class="bund-img">
+                        <img src="img/pack3.png" id="bund-img" alt="">
+                    </div>
+                    <strong class="bund-name">small</strong>
+                    <p>onion,tamato,garlic</p>
+                    <strong class="bund-price">$1</strong>
+                    <button class="bund-btn"><i class="fa-solid fa-bag-shopping"></i> add to cart</button>
+                </div>
+             
+              
+            </div>
+    
+        </section>
+        <section class="our-client" id="client">
+            <div class="client-head">
+                <strong> what our clients say's</strong>
+            </div>
+            <div class="client-item">
+                <div class="client-box">
+                    <div class="client-detail">
+                        <img src="img/client-1.jpg" alt="">
+                        <div>
+                            <p class="client-name">ayush dubey</p>
+                            <p class="client-work">founder & ceo</p>
+                            <p>⭐⭐⭐⭐</p>
+                        </div>
+                    </div>
+                    <div class="client-says">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, soluta qui sint quae eos voluptates
+                        laborum eveniet beatae consequuntur natus? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Maiores vero veniam dicta exercitationem cumque iure consequatur. Autem hic numquam dolorum,
+                        temporibus accusamus id mollitia necessitatibus suscipit consequuntur repellat ducimus dolorem.
+                    </div>
+    
+                </div>
+                <div class="client-box">
+                    <div class="client-detail">
+                        <img src="img/client-2.jpg" alt="">
+                        <div>
+                            <p class="client-name">ankit gupta</p>
+                            <p class="client-work">founder & ceo</p>
+                            <p>⭐⭐⭐⭐</p>
+                        </div>
+                    </div>
+                    <div class="client-says">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, soluta qui sint quae eos voluptates
+                        laborum eveniet beatae consequuntur natus? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Maiores vero veniam dicta exercitationem cumque iure consequatur. Autem hic numquam dolorum,
+                        temporibus accusamus id mollitia necessitatibus suscipit consequuntur repellat ducimus dolorem.
+                    </div>
+    
+                </div>
+                <div class="client-box" id="client-block">
+                    <div class="client-detail">
+                        <img src="img/client-3.jpg" alt="">
+                        <div>
+                            <p class="client-name">anshika pandey</p>
+                            <p class="client-work">founder & ceo</p>
+                            <p>⭐⭐⭐⭐⭐</p>
+                        </div>
+                    </div>
+                    <div class="client-says">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, soluta qui sint quae eos voluptates
+                        laborum eveniet beatae consequuntur natus? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Maiores vero veniam dicta exercitationem cumque iure consequatur. Autem hic numquam dolorum,
+                        temporibus accusamus id mollitia necessitatibus suscipit consequuntur repellat ducimus dolorem.
+                    </div>
+    
+                </div>
+    
+            </div>
+        </section>
+    
+    
+    
+        <!-- footer section start here---------------------------- -->
+        <footer class="footer" id="foot">
+            <p>follow us</p>
+            <div class="social">
+                <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+            </div>
+            <p class="reserved">&copy; all right reserved </p>
+        </footer>
+    
+    
+
+    
+
+
+
+
+
+
+
+    <script src="js/script.js">
+
+    </script>
+</body>
+
+</html>

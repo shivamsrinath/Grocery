@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grocery</title>
+</head>
+<link rel="stylesheet" href="css/style-cat.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<link rel="shortcut icon" href="img/fav-icon.png">
+
+<body>
+    <div class="header">
+        <a href="index.html">
+            <h1 class="heading">e<span>Grocery</span></h1></a>
+        <nav class="navbar" id="nav">
+            <a href="index.html">Home</a>
+            <a href="categories.html" class="active">categories </a>
+            <a href="bundle.html">bundle pack</a>
+            <a href="about-us.html">about us</a>
+        </nav>
+        <i class="fa-solid fa-bars" id="bar" onclick="toggleHide()"></i>
+        <i class="fa-solid fa-x" id="cross" onclick="toggleHide()"></i>
+        <div class="icons">
+            <div class="heart"><i class="fa-regular fa-heart"></i></div>
+            <div class="cart"><i class="fa-solid fa-cart-shopping"></i></div>
+
+        </div>
+    </div>
+    <section class="poster">
+        <div class="main-poster">
+            <img src="img/bg-1.png" class="bg-1" alt="bg">
+            <img src="img/bg-2.png" class="bg-2" alt="bg">
+
+            <!-- text start here--------------->
+            <h1>
+               categories
+            </h1>
+           
+            <strong>#free delivery</strong>
+            <div class="search-box">
+                <label class="fa-solid fa-magnifying-glass" id="search-logo" for="search"></label>
+                <input type="text" id="search" placeholder="Search your daily groceries">
+                <label for="search" class="seacrh-btn">search</label>
+            </div>
+        </div>
+        <section class="categories" id="#category ">
+            <div class="cat-head">
+                <strong class="categories-tittle">category</strong>
+                <p>all</p>
+            </div>
+            <div class="cat-item">
+                <div class="category-box">
+                    <img src="img/fish.png" alt="">
+                    <span>fish & meat</span>
+                </div>
+                <div class="category-box">
+                    <img src="img/baby.png" alt="">
+                    <span>baby</span>
+
+                </div>
+                <div class="category-box">
+                    <img src="img/beauty.png" alt="">
+                    <span>beauty</span>
+
+                </div>
+                <div class="category-box">
+                    <img src="img/medicine.png" alt="">
+                    <span>medicine</span>
+
+                </div>
+                <div class="category-box">
+                    <img src="img/Gardening.png" alt="">
+                    <span>Gardening</span>
+
+                </div>
+                <div class="category-box">
+                    <img src="img/office.png" alt="">
+                    <span>office</span>
+
+                </div>
+                <div class="category-box" id="veg">
+                    <img src="img/Vegetables.png" alt="">
+                    <span>Vegetables</span>
+
+                </div>
+            </div>
+        </section>
+        <section class="fish" id="fish-product ">
+            <div class="fis-head">
+                <strong class="fish-tittle">fish & meat</strong>
+                
+            </div>
+            <div class="fis-item">
+                <div class="fish-box">
+                    <i class="fa-regular fa-heart" id="like"></i>
+                    <div class="fis-img">
+                        <img src="img/fish-1.png" id="fis-img" alt="">
+                    </div>
+                    <strong class="fis-name">meat</strong>
+                    <p>1 KG</p>
+                    <strong class="fis-price">rs 700</strong>
+                    <button class="fis-btn"><i class="fa-solid fa-bag-shopping"></i> add to cart</button>
+                </div>
+                <div class="fish-box">
+                    <i class="fa-regular fa-heart" id="like"></i>
+                    <div class="fis-img">
+                        <img src="img/fish-2.png" id="fis-img" alt="">
+                    </div>
+                    <strong class="fis-name">chicken</strong>
+                    <p>1 KG</p>
+                    <strong class="fis-price">rs 200</strong>
+                    <button class="fis-btn"><i class="fa-solid fa-bag-shopping"></i> add to cart</button>
+                </div>
+                <div class="fish-box">
+                    <i class="fa-regular fa-heart" id="like"></i>
+                    <div class="fis-img">
+                        <img src="img/fish-3.png" id="fis-img" alt="">
+                    </div>
+                    <strong class="fis-name">fish</strong>
+                    <p>1 KG</p>
+                    <strong class="fis-price">rs 200</strong>
+                    <button class="fis-btn"><i class="fa-solid fa-bag-shopping"></i> add to cart</button>
+                </div>
+            </div>
+
+        </section>
+        <!-- baby section starts here------------------------ -->
+        <section class="baby" id="baby-product ">
+            <div class="bab-head">
+                <strong class="baby-tittle">baby product</strong>
+
+            </div>
+            <div class="bab-item">
+                <div class="baby-box">
+                    <i class="fa-regular fa-heart" id="like"></i>
+                    <div class="bab-img">
+                        <img src="img/pack1.png" id="bab-img" alt="">
+                    </div>
+                    <strong class="bab-name">large</strong>
+                    <p>onion,tamato,garlic</p>
+                    <strong class="bab-price">$2</strong>
+                    <button class="bab-btn"><i class="fa-solid fa-bag-shopping"></i> add to cart</button>
+                </div>
+                <div class="baby-box">
+                    <i class="fa-regular fa-heart" id="like"></i>
+                    <div class="bab-img">
+                        <img src="img/pack2.jpg" id="bab-img" alt="">
+                    </div>
+                    <strong class="bab-name">medium</strong>
+                    <p>onion,tamato,garlic</p>
+                    <strong class="bab-price">$3</strong>
+                    <button class="bab-btn"><i class="fa-solid fa-bag-shopping"></i> add to cart</button>
+                </div>
+                <div class="baby-box">
+                    <i class="fa-regular fa-heart" id="like"></i>
+                    <div class="bab-img">
+                        <img src="img/pack3.png" id="bab-img" alt="">
+                    </div>
+                    <strong class="bab-name">small</strong>
+                    <p>onion,tamato,garlic</p>
+                    <strong class="bab-price">$1</strong>
+                    <button class="bab-btn"><i class="fa-solid fa-bag-shopping"></i> add to cart</button>
+                </div>
+            </div>
+
+        </section>
+
+
+     
+       
+    </section>
+    <!-- footer section start here---------------------------- -->
+    <footer class="footer">
+        <p>follow us</p>
+        <div class="social">
+            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+        </div>
+        <p class="reserved">&copy; all right reserved </p>
+    </footer>
+
+
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
